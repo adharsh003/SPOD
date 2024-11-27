@@ -1,45 +1,46 @@
-class PopularDietsModel {
+class PopularactivitysModel {
   String name;
   String iconPath;
-  String level;
-  String duration;
-  String calorie;
+  String location;
   bool boxIsSelected;
 
-  PopularDietsModel({
+  PopularactivitysModel({
     required this.name,
     required this.iconPath,
-    required this.level,
-    required this.duration,
-    required this.calorie,
+    required this.location,
     required this.boxIsSelected
   });
 
-  static List < PopularDietsModel > getPopularDiets() {
-    List < PopularDietsModel > popularDiets = [];
+  static List < PopularactivitysModel > getPopularactivitys() {
+    List < PopularactivitysModel > popularactivitys = [];
 
-    popularDiets.add(
-      PopularDietsModel(
-       name: 'Blueberry Pancake',
-       iconPath: 'assets/icons/blueberry-pancake.svg',
-       level: 'Medium',
-       duration: '30mins',
-       calorie: '230kCal',
-       boxIsSelected: true,
-      )
-    );
-
-    popularDiets.add(
-      PopularDietsModel(
-       name: 'Salmon Nigiri',
-       iconPath: 'assets/icons/salmon-nigiri.svg',
-       level: 'Easy',
-       duration: '20mins',
-       calorie: '120kCal',
+    popularactivitys.add(
+      PopularactivitysModel(
+       name: 'Anfield Stadium',
+       iconPath: 'assets/football/football 1.jpg',
+       location: 'Liverpool',
        boxIsSelected: false,
       )
     );
 
-    return popularDiets;
+    popularactivitys.add(
+      PopularactivitysModel(
+       name: 'Emirites Stadium',
+       iconPath: 'assets/football/football 2.jpg',
+       location: 'London',
+       boxIsSelected: false,
+      )
+    );
+
+    popularactivitys.add(
+      PopularactivitysModel(
+       name: 'Ethihad Stadium',
+       iconPath: 'assets/football/football 3.jpeg',
+       location: 'Manchester',
+       boxIsSelected: false,
+      )
+    );
+
+    return popularactivitys;
   }
 }

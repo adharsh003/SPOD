@@ -16,33 +16,32 @@ class CategoryModel {
     
     categories.add(
       CategoryModel(
-        name: 'Salad',
-        iconPath: 'assets/icons/plate.svg',
-        boxColor: Color(0xff9DCEFF)
+        name: 'Basketball',
+        iconPath: 'assets/catogery/catogery 4.png',
+        boxColor: Color.fromARGB(255, 224, 35, 98)      )
+    );
+
+    categories.add(
+      CategoryModel(
+        name: 'Football',
+        iconPath: 'assets/catogery/catogery 1.png',
+        boxColor: Color.fromARGB(255, 224, 35, 98)
       )
     );
 
     categories.add(
       CategoryModel(
-        name: 'Cake',
-        iconPath: 'assets/icons/pancakes.svg',
-        boxColor: Color(0xffEEA4CE)
+        name: 'Cricket',
+        iconPath: 'assets/catogery/catogery 2.png',
+        boxColor: Color.fromARGB(255, 224, 35, 98)
       )
     );
 
     categories.add(
       CategoryModel(
-        name: 'Pie',
-        iconPath: 'assets/icons/pie.svg',
-        boxColor: Color(0xff9DCEFF)
-      )
-    );
-
-    categories.add(
-      CategoryModel(
-        name: 'Smoothies',
-        iconPath: 'assets/icons/orange-snacks.svg',
-        boxColor: Color(0xffEEA4CE)
+        name: 'Tennis',
+        iconPath: 'assets/catogery/catogery 3.png',
+        boxColor: Color.fromARGB(255, 224, 35, 98)
       )
     );
     
